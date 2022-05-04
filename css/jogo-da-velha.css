@@ -1,0 +1,85 @@
+@charset "UTF-8";
+#links{
+    text-align: right;
+
+}
+
+
+
+.linksDeJogo{
+    text-align: right;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    color: rgb(0, 183, 255);
+
+}
+
+.posJogo{
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+#dvjogo{
+    width: 160px;
+    height: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+   /* border: 1px solid red;*/
+}
+
+#p1{
+    border-right:1px solid rgb(0, 0, 0);
+    border-bottom:1px solid rgb(0, 0, 0);
+}
+
+#p2{
+    border-left:1px solid rgb(0, 0, 0);
+    border-right:1px solid rgb(0, 0, 0);
+    border-bottom:1px solid rgb(0, 0, 0);
+}
+
+#p3{
+    border-left:1px solid rgb(0, 0, 0);
+    border-bottom:1px solid rgb(0, 0, 0);
+}
+
+#p4{
+    border-right:1px solid rgb(0, 0, 0);
+    border-top:1px solid rgb(0, 0, 0);
+    border-bottom:1px solid rgb(0, 0, 0);
+}
+
+#p5{
+    border:1px solid rgb(0, 0, 0);
+}
+
+#p6{
+    border-left:1px solid rgb(0, 0, 0);
+    border-top:1px solid rgb(0, 0, 0);
+    border-bottom:1px solid rgb(0, 0, 0);
+}
+
+#p7{
+    border-right:1px solid rgb(0, 0, 0);
+    border-top:1px solid rgb(0, 0, 0);
+}
+
+#p8{
+    border-left:1px solid rgb(0, 0, 0);
+    border-top:1px solid rgb(0, 0, 0);
+}
+
+#p9{
+    border-left:2px solid rgb(0, 0, 0);
+    border-top:1px solid rgb(0, 0, 0);
+}

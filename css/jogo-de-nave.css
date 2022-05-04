@@ -1,0 +1,97 @@
+@charset "UTF-8";
+.linksDeJogo{
+    text-align: right;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    color: rgb(0, 183, 255);
+
+}
+
+body{
+    overflow-x:hidden;
+    overflow-y: hidden;
+    background-color: white;
+}
+
+#naveJog{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    content:url(https://i.pinimg.com/originals/8f/ab/f2/8fabf2eb407b715315a49f4c67ac4908.gif);
+ /* Nave do star wars, nave do império.
+https://w7.pngwing.com/pngs/735/1012/png-transparent-pixel-art-others-angle-video-game-tie.png
+
+ Outra nave.
+ https://i.pinimg.com/originals/8f/ab/f2/8fabf2eb407b715315a49f4c67ac4908.gif
+ */
+}
+
+.telaMsg{
+    position: absolute;
+    margin-left: -25%;
+    top: 50px;
+    left: 50px;
+    width: 720px;
+    height: 620px;
+    display: none;
+}
+
+#medidorPlaneta{
+    border: 2px solid #000;
+    width: 300px;
+    height: 20px;
+    background-color: red;
+}
+
+#barraPlaneta{
+    width: 300px;
+    height: 20px;
+    background-color: blue;
+}
+
+.tiroJog{
+  width: 6px;  
+  height: 6px;
+  background-color: black;
+  border-radius: 6px;
+  position: absolute;
+}
+
+.bomba{
+ width: 20px;
+ height: 40px;
+ content: url(../img/bomba.PNG);
+ position: absolute;
+ transform: rotate(539deg);
+}
+
+.explosaoChao{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+}
+
+.explosaoAr{
+    width: 192px;
+    height: 192px;
+    position: absolute;
+    }
+
+/*
+Pesquisar o seguint erro: Cross-Origin Read Blocking (CORB) blocked cross-origin response <URL> with MIME type text/html. See <URL> for more details. 
+
+Nave de boss: https://www.google.com/imgres?imgurl=https%3A%2F%2Fassets.editor.p5js.org%2F5f7355dd57cc970024827965%2Fc81c86b1-b8c9-4143-8591-e598c8ca1179.gif&imgrefurl=https%3A%2F%2Fpreview.p5js.org%2Fernane.junior25%2Fpresent%2F8LRIMXu4Nl&tbnid=t3oLlypXdATjvM&vet=10CPMBEDMozgFqFwoTCOCylLXRpPMCFQAAAAAdAAAAABAN..i&docid=451GpRavG5qpDM&w=369&h=360&q=nave%20pixel%20arte&ved=0CPMBEDMozgFqFwoTCOCylLXRpPMCFQAAAAAdAAAAABAN
+Raposa boss: https://www.google.com/imgres?imgurl=https%3A%2F%2Fimage.freepik.com%2Ffree-vector%2Fcartoon-monster-pixel-design_61878-727.jpg&imgrefurl=https%3A%2F%2Fwww.freepik.com%2Fpremium-vector%2Fcartoon-monster-pixel-design_4120235.htm&tbnid=PZK-l46u7A7gpM&vet=10CAwQxiAoBWoXChMI8MDfltGn8wIVAAAAAB0AAAAAEAI..i&docid=okAnsgO3n0kYDM&w=626&h=351&itg=1&q=bomba%20de%20nave%20pixel%20art%20gif&ved=0CAwQxiAoBWoXChMI8MDfltGn8wIVAAAAAB0AAAAAEAI
+Gato boss:https://www.google.com/imgres?imgurl=https%3A%2F%2Fst4.depositphotos.com%2F2400497%2F21269%2Fv%2F600%2Fdepositphotos_212699626-stock-illustration-vector-illustration-of-cartoon-monster.jpg&imgrefurl=https%3A%2F%2Fbr.depositphotos.com%2Fvector-images%2Ficono-de-vector-pixel-art.html%3Foffset%3D650&tbnid=WRIy-0SYceNfkM&vet=12ahUKEwjQm_SJ0afzAhUyu5UCHfq6CEUQMygUegQIARBo..i&docid=nBMXK9yqK1J9wM&w=600&h=547&q=bomba%20de%20nave%20pixel%20art%20gif&ved=2ahUKEwjQm_SJ0afzAhUyu5UCHfq6CEUQMygUegQIARBo
+
+Explossões da nave:https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.aemora.pt%2Fwp-content%2Fuploads%2F2019%2F10%2FExplos%25C3%25A3o.gif&imgrefurl=https%3A%2F%2Fwww.aemora.pt%2F%3Fpage_id%3D3148&tbnid=EGCZ9o6RZddj0M&vet=10CAMQxiAoAGoXChMI8MazntOn8wIVAAAAAB0AAAAAEAc..i&docid=4TWXvrZ_hp1HaM&w=300&h=300&itg=1&q=explos%C3%A3o%20gif%20pixel%20art&ved=0CAMQxiAoAGoXChMI8MazntOn8wIVAAAAAB0AAAAAEAc
+Explossões dos misseis: https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.gifer.com%2FXCVT.gif&imgrefurl=https%3A%2F%2Fgifer.com%2Fpt%2FXCVT&tbnid=nhmxbxiVWhJs8M&vet=12ahUKEwjw9_ii06fzAhUXrZUCHdbcCAcQMygEegUIARDFAQ..i&docid=mSEiBBuNzN1tdM&w=192&h=192&q=explos%C3%A3o%20gif%20pixel%20art&ved=2ahUKEwjw9_ii06fzAhUXrZUCHdbcCAcQMygEegUIARDFAQ#imgrc=EGCZ9o6RZddj0M&imgdii=nhmxbxiVWhJs8M
+
+Bomba:https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn2.scratch.mit.edu%2Fget_image%2Fuser%2F37255969_60x60.png&imgrefurl=https%3A%2F%2Fscratch.mit.edu%2Fusers%2Fmoooo3%2F&tbnid=Xb_657g5_6LhwM&vet=12ahUKEwiB5NX31KfzAhWnoZUCHR4tDJoQMygKegQIARBL..i&docid=k3RJCE3uk_cFZM&w=256&h=256&q=m%C3%ADssil%20pixel%20art%20gif&hl=pt-BR&ved=2ahUKEwiB5NX31KfzAhWnoZUCHR4tDJoQMygKegQIARBL
+
+bomba do mario: https://www.google.com/imgres?imgurl=https%3A%2F%2F66.media.tumblr.com%2Ftumblr_mairk6EuQL1rfjowdo1_500.gif&imgrefurl=https%3A%2F%2Fwifflegif.com%2Ftags%2F2437-game-gifs%3Fpage%3D16&tbnid=goQCvaEjisKq2M&vet=12ahUKEwjY3u660afzAhV2pZUCHUrWCHgQMygOegUIARDuAQ..i&docid=Wv-7gb1Bqwb2OM&w=500&h=500&q=bomba%20%20pixel%20art%20gif&ved=2ahUKEwjY3u660afzAhV2pZUCHUrWCHgQMygOegUIARDuAQ
+
+gif engraçado de venceu: https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.makeagif.com%2Fmedia%2F2-08-2016%2FG_pR6G.gif&imgrefurl=https%3A%2F%2Fmakeagif.com%2Fgif%2Fperiquito-correndo-da-explosao-G_pR6G&tbnid=3uWMDpEHXgac6M&vet=12ahUKEwji8puQ06fzAhWxppUCHXqpDLEQMygOegUIARCjAg..i&docid=lQX5fTezAyxZ5M&w=320&h=164&q=explos%C3%A3o%20gif&ved=2ahUKEwji8puQ06fzAhWxppUCHXqpDLEQMygOegUIARCjAg
+
+gif de venceu: https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F6f%2F8d%2F6b%2F6f8d6ba8e1d04b9896f7462ea35c1ca0.gif&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F559501953709014294%2F&tbnid=F60kiGHkTXseuM&vet=12ahUKEwjY3u660afzAhV2pZUCHUrWCHgQMygKegUIARDjAQ..i&docid=BtiVeHUnmmp97M&w=360&h=288&q=bomba%20%20pixel%20art%20gif&ved=2ahUKEwjY3u660afzAhV2pZUCHUrWCHgQMygKegUIARDjAQ
+*/

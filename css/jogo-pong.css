@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+.linksDeJogo{
+    text-align: right;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    color: rgb(0, 183, 255);
+
+}
+
+body{
+    margin: 0px;
+    background-color: grey;
+}
+#dvPainel{
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+.itemPainel{
+    margin: 5px;
+}
+
+#dvJogo{
+    width: 960px;
+    height: 500px;
+    border:1px solid black;
+    background-color: black;
+}
+
+#dvBola{
+    position: absolute;
+    top: 240px;
+    left: 475px;
+    width: 20px;
+    height: 20px;
+    background-color: grey;
+    border-radius:50%;
+}
+
+.barra{
+    position: absolute;
+    width: 20px;
+    height: 140px;   
+    background-color: grey;
+    top: 180px;
+}
+
+.esquerda{
+    left: 10px;
+}
+
+.direita{
+    left: 930px;
+}
+
+#pontosDaCpu{
+    position: absolute;
+   right: 300px;
+}
+
+.pontosDaCpuNo{
+    position: absolute;
+    right: 409px;
+}

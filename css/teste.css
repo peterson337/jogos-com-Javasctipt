@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+.letra{
+    width: 30px;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 5px;
+    display: none;
+}
+
+.letraj{
+    width: 30px;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align:center;
+    margin: 5px;
+}
+
+.dvdisplay{
+    display: block;
+}
+
+#dvForca{
+    position: absolute;
+    left:200px
+}
+
+#cabeca{
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+
+#corpo{
+    position: absolute;
+    top: 170px;
+    left: 50px;
+}
+
+#bracoE{
+    position: absolute;
+    left: -10px;
+    top: 200px;
+}
+
+#bracoD{
+ position: absolute;
+ left: 170px;
+ top: 200px;
+}
+
+#pernaE{
+position: absolute;
+top: 390px;
+left:-80px; 
+}
+
+#pernaD{
+position: absolute;
+top: 390px;
+left: 160px;
+}
+
+#morreu{
+    position: absolute;
+    top: 160px;
+    left: 230px;
+}
+
+
+.linksDeJogo{
+    color: rgb(0, 174, 255);
+    text-decoration: none;
+    text-align: right;
+    font-family: Arial, sans-serif;
+   
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pong Jogo</title>
+    <link rel="stylesheet" href="css/jogo-pong.css">
+
+</head>
+<body>
+
+    <div class="linksDeJogo">
+    <a class="linksDeJogo" href="index.html">Index</a> &nbsp; &nbsp; &nbsp;
+    <a class="linksDeJogo" href="jogo-da-velha.html">Jogo da velha</a>&nbsp; &nbsp; &nbsp;  
+    <a class="linksDeJogo" href="jogo-de-nave.html">Jogo de nave</a>  
+    </div>
+
+<div id="dvJogo">
+
+    <div id="dvBola"></div>
+    <div id="dvJogador" class="barra esquerda"></div>
+    <div id="dvCpu" class="barra direita"></div>
+
+</div>
+
+<div id="dvPainel">
+
+    <div class="itemPainel"></div>
+    <label style="font-family: Arial,sans-serif;">Pontos do Jogador</label> 
+    <input disabled type="text" id="txtPontos" value="0" size="10"> 
+    <label class="pontosDaCpuNo" style="font-family: Arial,sans-serif;">Pontos da CPU</label>
+    <input disabled id="pontosDaCpu" type="text" id="txtPontos" value="0" size="10">
+
+
+</div>
+
+<div class="itemPainel">
+    <button id="btIniciar">iniciar</button>
+
+</div>
+
+
+</body>
+
+<script src="js/jogo-pong.js"></script>
+</html>
