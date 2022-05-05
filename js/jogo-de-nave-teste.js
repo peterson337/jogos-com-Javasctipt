@@ -268,7 +268,7 @@ function reinicia(){
   btn.style.display="none";
   clearInterval(tmpCriaBomba);
   cancelAnimationFrame(frames);
-  vidaPlaneta=400;
+  vidaPlaneta=300;
   pjx=tamTelaW/2;
   pjy=tamTelaH/2;
   jog.style.top=pjy+"px";
