@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    background-color: black;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    border-bottom: 1px solid white;
+    font-weight: 900;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 20px;
+    background-color: grey;
+    color: white;
+}
+
+h2{
+    text-align: center;
+}
+
+.enemy-options img{
+    max-width: 200px;
+    opacity: 0.3;
+ 
+}
+
+.player-options img{
+    max-width: 200px;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.player-options img:hover{
+    max-width: 245px;
+}
+
+.player-options,.enemy-options{
+    width: 50%;
+}
+
+.align{
+    display: flex;
+}
+
+.recarregar-pagina{
+    position: absolute;
+    left: 72%;
+    bottom: 70%;
+    width: 20%;
+    height: 7%;
+    border-radius: 20px;
+    background-color: rgb(116, 116, 116);
+    color: black;
+    font-size: 18px;
+}
+
+/* .recarregar-pagina:hover{
+   color: red;
+   width: 23%;
+   height: 8%;
+}
+
+.recarregar-pagina:active{
+    color: white;
+    background-color: red;
+    width: 23%;
+    height: 8%;
+ } */
